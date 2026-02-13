@@ -1,0 +1,296 @@
+{
+  "publications": [
+    {
+      "year": 2024,
+    "items": [
+      {
+        "title": "Serenus: Alleviating Low-Battery Anxiety Through Real-time Accurate and User-Friendly Energy Consumption Prediction of Mobile Applications",
+        "authors": "Sera Lee*, Dae R. Jeong*, Junyoung Choi, Jaeheon Kwak, Seoyun Son, Jean Y. Song, and Insik Shin",
+        "venue": "UIST 2024",
+        "link": "#",
+        "pdf": "/publications_pdf/serenus_uist2024.pdf",
+        "bibtex": "#",
+        "note": "* Equal contribution",
+        "selected": true
+      },
+      {
+        "title": "Exploring Intervention Techniques to Alleviate Negative Emotions during Video Content Moderation Tasks as a Worker-centered Task Design",
+        "authors": "Dokyun Lee, Sangeun Seo, Chanwoo Park, Sunjun Kim, Buru Chang, and Jean Y. Song",
+        "venue": "DIS 2024",
+        "link": "#",
+        "pdf": "/publications_pdf/DIS2024_Intervention_techniques.pdf",
+        "bibtex": "#",
+        "keywords": ["Content Moderation", "Crowdsourcing", "Mental Health"],
+        "selected": true
+      },
+      {
+        "title": "Find the Bot!: Gamifying Facial Emotion Recognition for Both Human Training and Machine Learning Data Collection",
+        "authors": "Yeonsun Yang, Ahyeon Shin, Nayoung Kim, Huidam Woo, John Joon Young Chung, and Jean Y. Song",
+        "venue": "CHI 2024",
+        "link": "#",
+        "pdf": "/publications_pdf/CHI2024_FindtheBot.pdf",
+        "bibtex": "#",
+        "keywords": ["Education", "Emotion Recognition", "Learning Systems"],
+        "selected": true
+      },
+      {
+        "title": "FLUID-IoT : Flexible and Granular Access Control in Shared IoT Environments via-UI-Level Control Distribution",
+        "authors": "Sunjae Lee*, Minwoo Jeong*, Daye Song, Junyoung Choi, Seoyun Son, Jean Y. Song†, Insik Shin†",
+        "venue": "CHI 2024",
+        "link": "#",
+        "pdf": "/publications_pdf/fluid_iot_chi2024.pdf",
+        "bibtex": "#",
+        "note": "* Equal contribution, †Co-corresponding authors"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "items": [
+      {
+        "title": "Neglected Free Lunch - Learning Image Classifiers Using Annotation Byproducts",
+        "authors": "Dongyoon Han*, Junsuk Choe*, Seonghyeok Chun, John Chung, Minsuk Chang, Sangdoo Yun, Jean Y. Song, Seong Joon Oh",
+        "venue": "ICCV 2023",
+        "link": "#",
+        "pdf": "/publications_pdf/neglected_free_lunch_iccv2023.pdf",
+        "bibtex": "#",
+        "note": "* Equal contribution"
+      },
+      {
+        "title": "ModSandbox: Facilitating Online Community Moderation Through Error Prediction and Improvement of Automated Rules",
+        "authors": "Jean Y. Song*, Sangwook Lee*, Jisoo Lee, Mina Kim, and Juho Kim",
+        "venue": "CHI 2023",
+        "link": "#",
+        "pdf": "/publications_pdf/CHI2023_ModSandbox.pdf",
+        "bibtex": "#",
+        "note": "* Equal contribution",
+        "keywords": ["Content Moderation", "Social Media"],
+        "selected": true
+      },
+      {
+        "title": "It is Okay to be Distracted: How Real-time Transcriptions Facilitate Online Meeting with Distraction",
+        "authors": "Seoyun Son, Junyoung Choi, Sunjae Lee, Jean Y. Song, and Insik Shin",
+        "venue": "CHI 2023",
+        "link": "#",
+        "pdf": "/publications_pdf/CHI2023_OnlineMeeting.pdf",
+        "bibtex": "#"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "items": [
+      {
+        "title": "A-Mash: Providing Single-app Illusion for Multi-app Use through User-centric UI Mashup",
+        "authors": "Sunjae Lee, Hoyoung Kim, Sijung Kim, Sangwook Lee, Hyosu Kim, Jean Y. Song, Steven Y. Ko, Sangeun Oh, and Insik Shin",
+        "venue": "MobiCom 2022",
+        "link": "#",
+        "pdf": "/publications_pdf/a_mash_mobicom2022.pdf",
+        "bibtex": "#"
+      },
+      {
+        "title": "Promptiverse: Scalable Generation of Scaffolding Prompts through Human-AI Knowledge Graph Annotation",
+        "authors": "Yoonjoo Lee, John Joon Young Chung, Taesoo Kim, Jean Y. Song, and Juho Kim",
+        "venue": "CHI 2022",
+        "link": "#",
+        "pdf": "/publications_pdf/CHI2022_Promptiverse.pdf",
+        "bibtex": "#",
+        "keywords": ["Education", "Human-AI Interaction"]
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "items": [
+      {
+        "title": "FLUID-XP: Flexible User Interface Distribution forCross-Platform Experience",
+        "authors": "Sunjae Lee, Hayeon Lee, Hoyoung Kim, Sangmin Lee, Jeong Woon Choi, Yuseung Lee, Seono Lee, Ahyeon Kim, Jean Y. Song, Sangeun Oh, Steven Y. Ko, and Insik Shin",
+        "venue": "MobiCom 2021",
+        "link": "#",
+        "pdf": "/publications_pdf/mobicom21-fluid-xp.pdf",
+        "bibtex": "#"
+      },
+      {
+        "title": "Human-in-the-loop Pose Estimation via Shared Autonomy",
+        "authors": "Zhefan Ye, Jean Y. Song, Zhiqiang Sui, Stephen Hart, Jorge Vilchis, Arbor, Walter S. Lasecki, and Odest C. Jenkins",
+        "venue": "IUI 2021",
+        "link": "#",
+        "pdf": "/publications_pdf/IUI2021_human-in-the-loop.pdf",
+        "bibtex": "#",
+        "note": "Best Paper Honorable Mention"
+      },
+      {
+        "title": "Crowdsourcing More Effective Initializations for Single-target Trackers Through Automatic Re-querying",
+        "authors": "Stephan J. Lemmer, Jean Y. Song, and Jason J. Corso",
+        "venue": "CHI 2021",
+        "link": "#",
+        "pdf": "/publications_pdf/CHI2021_VOT.pdf",
+        "bibtex": "#",
+        "keywords": ["Crowdsourcing", "Machine Learning"]
+      },
+      {
+        "title": "Personalizing Ambience and Illusionary Presence: How People Use \"Study with Me\" Videos to Create Effective Studying Environments",
+        "authors": "Yoonjoo Lee, John Joon Young Chung, Jean Y. Song, Minsuk Chang, and Juho Kim",
+        "venue": "CHI 2021",
+        "link": "#",
+        "pdf": "/publications_pdf/CHI2021_SWM.pdf",
+        "bibtex": "#",
+        "keywords": ["Education", "Learning Systems"]
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "items": [
+      {
+        "title": "C-Reference: Improving 2D to 3D Object Pose Estimation Accuracy via Crowdsourced Joint Object Estimation",
+        "authors": "Jean Y. Song, John Joon Young Chung, David F. Fouhey, and Walter S. Lasecki",
+        "venue": "CSCW 2020",
+        "link": "#",
+        "pdf": "/publications_pdf/CReference_CSCW2020.pdf",
+        "bibtex": "#",
+        "keywords": ["Crowdsourcing", "Human-in-the-Loop"]
+      },
+      {
+        "title": "Yesterday's Reward is Today's Punishment: Contrast Effects in Human Feedback to Reinforcement Learning Agents",
+        "authors": "Divya Ramesh, Anthony Z. Liu, Andres J. Echeverria, Jean Y. Song, Nicholas R. Waytowich, and Walter S. Lasecki",
+        "venue": "AAMAS 2020",
+        "link": "#",
+        "pdf": "/publications_pdf/contrast_effect_AAMAS2020.pdf",
+        "bibtex": "#",
+        "note": "Pragnesh Jay Modi Best Student Paper"
+      },
+      {
+        "title": "Improving Crowd-Supported GUI Testing with Structural Guidance",
+        "authors": "Yan Chen, Maulishree Pandey, Jean Y. Song, Walter S. Lasecki, and Steve Oney",
+        "venue": "CHI 2020",
+        "link": "#",
+        "pdf": "/publications_pdf/GUITesting_CHI2020.pdf",
+        "bibtex": "#"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "items": [
+      {
+        "title": "Efficient Elicitation Approaches to Estimate Collective Crowd Answers",
+        "authors": "John Joon Young Chung, Jean Y. Song, Sindhu Kutty, Sungsoo (Ray) Hong, Juho Kim, and Walter S. Lasecki",
+        "venue": "CSCW 2019",
+        "link": "#",
+        "pdf": "/publications_pdf/ManyThoughts_CSCW2019.pdf",
+        "bibtex": "#",
+        "note": "Best Paper Honorable Mention",
+        "keywords": ["Crowdsourcing"]
+      },
+      {
+        "title": "FourEyes: Leveraging Tool Diversity as a Means to Improve Aggregate Accuracy in Crowdsourcing",
+        "authors": "Jean Y. Song, Raymond Fok, Juho Kim, and Walter S. Lasecki",
+        "venue": "TiiS 2019",
+        "link": "#",
+        "pdf": "/publications_pdf/TiiS_FourEyes.pdf",
+        "bibtex": "#",
+        "keywords": ["Crowdsourcing"]
+      },
+      {
+        "title": "Popup: Reconstructing 3D Video Using Particle Filtering to Aggregate Crowd Responses",
+        "authors": "Jean Y. Song, Stephan J. Lemmer, Michael Xieyang Liu, Shiyan Yan, Juho Kim, Jason J. Corso, and Walter S. Lasecki",
+        "venue": "IUI 2019",
+        "link": "#",
+        "pdf": "/publications_pdf/popup_IUI2019.pdf",
+        "bibtex": "#"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "items": [
+      {
+        "title": "Two Tools are Better Than One: Tool Diversity as a Means of Improving Aggregate Crowd Performance",
+        "authors": "Jean Y. Song, Raymond Fok, Alan Lundgard, Fan Yang, Juho Kim, and Walter S. Lasecki",
+        "venue": "IUI 2018",
+        "link": "#",
+        "pdf": "/publications_pdf/IUI2018_FourEyes.pdf",
+        "bibtex": "#",
+        "note": "Best Student Paper Honorable Mention",
+        "keywords": ["Crowdsourcing"]
+      }
+    ]
+  }
+  ],
+  "postersDemosWorkshops": [
+    {
+      "year": 2024,
+    "items": [
+      {
+        "title": "How do multiple LLM-powered conversational agents assist sensemaking and decision-making in an unfamiliar domain?",
+        "authors": "Jeongeon Park, Bryan Min, Jean Y. Song, Xiaojuan Ma, and Juho Kim",
+        "venue": "CHI 2024",
+        "link": "#",
+        "pdf": "/publications_pdf/CHI2024_SensemakingWS_ChoiceMates.pdf",
+        "bibtex": "#",
+        "type": "Poster",
+        "keywords": ["Human-AI Interaction"]
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "items": [
+      {
+        "title": "XDesign: Integrating Interface Design into Explainable AI Education",
+        "authors": "Hyungyu Shin, Nabila Sindi, Yoonjoo Lee, Jaeryoung Ka, Jean Y. Song, and Juho Kim",
+        "venue": "SIGCSE TS 2022",
+        "link": "#",
+        "pdf": "/publications_pdf/SIGCSE2022-poster-XDesign-paper.pdf",
+        "bibtex": "#",
+        "type": "Poster",
+        "keywords": ["Education", "Learning Systems"]
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "items": [
+      {
+        "title": "Towards Universal Evaluation of Image Annotation Interfaces",
+        "authors": "Andrew M. Vernier, Jean Y. Song, Edward Sun, Allison Kench, and Walter S. Lasecki",
+        "venue": "UIST 2019",
+        "link": "#",
+        "pdf": "/publications_pdf/corsica_UIST2019-poster.pdf",
+        "bibtex": "#",
+        "type": "Poster",
+        "location": "New Orleans, LA",
+        "keywords": ["Crowdsourcing"]
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "items": [
+      {
+        "title": "Tool Diversity as a Means of Improving Aggregate Crowd Performance on Image Segmentation Tasks",
+        "authors": "Jean Y. Song, Raymond Fok, Fan Yang, Kyle Wang, Alan Lundgard, and Walter S. Lasecki",
+        "venue": "HCOMP GroupSight 2017",
+        "link": "#",
+        "pdf": "/publications_pdf/GroupSight2017_ToolDiversity.pdf",
+        "bibtex": "#",
+        "type": "Workshop",
+        "location": "Quebec City, Quebec",
+        "keywords": ["Crowdsourcing", "Machine Learning"]
+      },
+      {
+        "title": "Towards Hybrid Intelligence for Robotics",
+        "authors": "Sai R. Gouravajhala, Jean Y. Song, Jinyeong Yim, Raymond Fok, Yanda Huang, Fan Yang, Kyle Wang, Yilei An, and Walter S. Lasecki",
+        "venue": "CI 2017",
+        "link": "#",
+        "pdf": "/publications_pdf/eureca_ci2017.pdf",
+        "bibtex": "#",
+        "type": "Workshop",
+        "location": "New York, NY",
+        "keywords": ["Crowdsourcing", "Human-in-the-Loop"]
+      }
+    ]
+  }
+  ]
+}

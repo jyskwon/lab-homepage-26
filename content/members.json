@@ -1,0 +1,292 @@
+{
+  "team": [
+    {
+      "role": "Principal Investigator",
+      "people": [
+        {
+          "name": "Jean Y. Song",
+          "title": "Assistant Professor",
+          "interest": "Leading research in HCI and\nHuman-AI interaction",
+          "image": "/members_image/jean_profile2024.jpg",
+          "homepage": "https://jyskwon.github.io/",
+          "keywords": ["Human-AI Interaction", "Crowdsourcing", "Content Moderation", "Education"]
+        }
+      ]
+    },
+    {
+      "role": "Graduate Students",
+      "people": [
+        {
+          "name": "Chanwoo Park",
+          "title": "Integrated Ph.D. student",
+          "interest": "",
+          "image": "/members_image/chanwoo_profile_picture.jpg",
+          "homepage": "https://bcw6622.github.io/",
+          "keywords": ["Crowdsourcing", "Deep Learning", "Content Moderation"]
+        },
+        {
+          "name": "Dokyun Lee",
+          "title": "Integrated Ph.D. student",
+          "interest": "",
+          "image": "/members_image/dokyun.jpg",
+          "homepage": "https://dokyunlee.github.io/",
+          "keywords": ["Human-AI Interaction", "Crowdsourcing", "Content Moderation", "Social Media", "Mental Health"]
+        },
+        {
+          "name": "Yeonsun Yang",
+          "title": "Integrated Ph.D. student",
+          "interest": "",
+          "image": "/members_image/yeonsun_profile_picture.jpg",
+          "homepage": "https://yeonsunyang.com/",
+          "keywords": ["Education", "Learning Systems", "Human-AI Interaction", "ESL Learning"]
+        },
+        {
+          "name": "SangEun Seo",
+          "title": "M.S. Student",
+          "interest": "",
+          "image": "/members_image/SangEun_profile_picture.jpg",
+          "homepage": "https://seseo98.github.io/",
+          "keywords": ["Content Moderation", "Crowdsourcing"]
+        },
+        {
+          "name": "Taehun Kim",
+          "title": "M.S. Student",
+          "interest": "",
+          "image": "/members_image/taehun_profile_picture.jpg",
+          "homepage": "https://raflereak.github.io/",
+          "keywords": ["Automotive Interfaces"]
+        },
+        {
+          "name": "Haeun Jang",
+          "title": "M.S. Student",
+          "interest": "",
+          "image": "/members_image/haeun_profile_picture.jpg",
+          "homepage": "https://jayuhan.github.io/",
+          "keywords": ["Emotion Recognition", "Culture"]
+        },
+        {
+          "name": "Kimberly Anne Lockrow",
+          "title": "M.S. Student",
+          "interest": "",
+          "image": "/members_image/kimberly_profile_picture.jpg",
+          "homepage": "",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "role": "Undergraduate Students",
+      "people": [
+        {
+          "name": "Ahyeon Shin",
+          "title": "Undergraduate Research Intern",
+          "interest": "",
+          "image": "/members_image/ahyeon_profile_picture.jpg",
+          "homepage": "",
+          "keywords": ["Education", "Learning Systems"]
+        },
+        {
+          "name": "Anastasia Arkhipenkova",
+          "title": "Undergraduate Research Intern",
+          "interest": "",
+          "image": "/members_image/Anastasia_profile_picture.jpg",
+          "homepage": "",
+          "keywords": []
+        },
+        {
+          "name": "Jaeyeong Choi",
+          "title": "Undergraduate Research Intern",
+          "interest": "",
+          "image": "/members_image/jaeyeong_profile_picture.jpg",
+          "homepage": "",
+          "keywords": []
+        },
+        {
+          "name": "Yoojin Jeon",
+          "title": "Undergraduate Research Intern",
+          "interest": "",
+          "image": "/members_image/yoojin_profile_picture.jpg",
+          "homepage": "",
+          "keywords": []
+        }
+      ]
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Mincheol Kang",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Spring 2024 - Summer 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Jiheon Kang",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Spring 2024 - Summer 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Yibin Moon",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Spring 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Nayoung Kim",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2023 - Spring 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Jaeyoung Choi",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2023 - Spring 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Suyeon Shin",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Summer 2023 - Spring 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Sungmin Ju",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Summer 2023 - Spring 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Jeongeon Park",
+      "position": "Researcher",
+      "affiliation": "",
+      "duration": "Fall 2023 - Spring 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Sunoo Kim",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2024 - Spring 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Youngjin Park",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2024",
+      "homepage": ""
+    },
+    {
+      "name": "Dain Kim",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2023 - Fall 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Sihwan Seok",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2023 - Fall 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Subeen Jo",
+      "position": "Undergad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2023 - Fall 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Minseong Kim",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Spring 2023 - Summer 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Huidam Woo",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Spring 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Chan Lee",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Spring 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Ahyeon Shin",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Sangeun Seo",
+      "position": "Undergrad Intern",
+      "affiliation": "UNIST",
+      "duration": "Summer 2022, Winter 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Chanyu Moon",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Gunuk Nam",
+      "position": "Undergrad Intern",
+      "affiliation": "Handong Global University",
+      "duration": "Winter 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Nayoung Kim",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2022 - Winter 2023",
+      "homepage": ""
+    },
+    {
+      "name": "Hojin Jin",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2022 - Fall 2022",
+      "homepage": ""
+    },
+    {
+      "name": "Hyeonho Kwon",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2022 - Fall 2022",
+      "homepage": ""
+    },
+    {
+      "name": "Giwon Lee",
+      "position": "Undergrad Intern",
+      "affiliation": "DGIST",
+      "duration": "Winter 2022 - Fall 2022",
+      "homepage": ""
+    },
+    {
+      "name": "Giwa Osaruiyobo Henrietta",
+      "position": "Graduate Intern",
+      "affiliation": "DGIST",
+      "duration": "Summer 2022",
+      "homepage": ""
+    }
+  ]
+}

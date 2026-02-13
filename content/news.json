@@ -1,0 +1,219 @@
+[
+  {
+    "id": 29,
+    "date": "2026.01",
+    "title": "Server Installation Completed",
+    "text": "Lab's server installation has been completed.",
+    "category": "Event"
+  },
+  {
+    "id": 30,
+    "date": "2025.07",
+    "title": "Lab Space Updates",
+    "text": "The lab space in Songdo has been decorated.",
+    "category": "Event"
+  },
+  {
+    "id": 31,
+    "date": "2025.06",
+    "title": "Joint Lab Meeting with HDIL",
+    "text": "Joint lab meeting with Human-Data Interaction Lab (HDIL: https://hdil.yonsei.ac.kr/).",
+    "category": "Event"
+  },
+  {
+    "id": 1,
+    "date": "2025.04",
+    "title": "A Warm Welcome to Zineb!",
+    "text": "Zineb (Ph.D Student) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 2,
+    "date": "2025.03",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "Jaeyeong Choi (Undergrad Intern) returned to the lab, and Kimberly Lockrow (M.S Student) and Yoojin Jeon (Undergrad Intern) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 3,
+    "date": "2025.01",
+    "title": "A Warm Welcome to Anastasia!",
+    "text": "Anastasia Arkhipenkova (Undergraduate Intern) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 4,
+    "date": "2025.01",
+    "title": "Paper Accepted at HCI Korea 2025",
+    "text": "Our papers are accepted at HCI Korea 2025.",
+    "category": "Achievement"
+  },
+  {
+    "id": 5,
+    "date": "2024.10",
+    "title": "A Warm Welcome to Haeun!",
+    "text": "Haeun Jang (M.S Student) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 6,
+    "date": "2024.06",
+    "title": "A Warm Welcome to Stacey!",
+    "text": "Stacey Luki (Undergrad Intern) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 7,
+    "date": "2024.05",
+    "title": "Attending CHI 2024",
+    "text": "Attending CHI 2024 in May 2024.",
+    "category": "Event"
+  },
+  {
+    "id": 8,
+    "date": "2024.04",
+    "title": "Papers Accepted at CHI 2024",
+    "text": "Our papers are accepted at CHI 2024.",
+    "category": "Achievement"
+  },
+  {
+    "id": 9,
+    "date": "2024.04",
+    "title": "Paper Published at DIS 2024",
+    "text": "Dokyun Lee, Sangeun Seo, Chanwoo Park, Sunjun Kim, Buru Chang, and Jean Y. Song. 'Exploring Intervention Techniques to Alleviate Negative Emotions during Video Content Moderation Tasks as a Worker-centered Task Design.' In Proceedings of the ACM Conference on Designing Interactive Systems (DIS 2024).",
+    "category": "Achievement"
+  },
+  {
+    "id": 10,
+    "date": "2024.03",
+    "title": "A Warm Welcome to Jeongeon!",
+    "text": "Jeongeon Park (Researcher) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 11,
+    "date": "2024.02",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "TaeHun Kim began his M.S. Student program. Yubin Moon, Jiheon Kang, and Mincheol Kang (Undergrad Interns) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 12,
+    "date": "2024.01",
+    "title": "Attending HCI Korea 2024",
+    "text": "Attending HCI Korea 2024 in January 2024.",
+    "category": "Event"
+  },
+  {
+    "id": 13,
+    "date": "2023.09",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "Suyeon Shin and Jaeyeong Choi (Undergrad Interns) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 14,
+    "date": "2023.08",
+    "title": "SangEun Seo Begins M.S. Program",
+    "text": "SangEun Seo began his M.S. Student program.",
+    "category": "Members"
+  },
+  {
+    "id": 15,
+    "date": "2023.06",
+    "title": "A Warm Welcome to TaeHun Kim!",
+    "text": "TaeHun Kim (Undergrad Intern) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 16,
+    "date": "2023.04",
+    "title": "A Warm Welcome to MinSeong Kim!",
+    "text": "MinSeong Kim (Undergrad Intern) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 17,
+    "date": "2023.03",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "Huidam Woo and Chan Lee (Undergrad Interns) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 18,
+    "date": "2023.02",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "Yeonsun Yang and Dokyun Lee transitioned into the Integrated MS&Ph.D program. Sungmin Ha (Integrated MS&Ph.D program), Subeen Jo, Sungmin Ju, Dain Kim, and Sihwan Seok (Undergrad Interns) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 19,
+    "date": "2023.02",
+    "title": "Attending HCI Korea 2023",
+    "text": "Attending HCI Korea 2023 in February 2023.",
+    "category": "Event"
+  },
+  {
+    "id": 20,
+    "date": "2023.01",
+    "title": "Paper Accepted at CHI 2023",
+    "text": "Our paper is accepted at CHI 2023.",
+    "category": "Achievement"
+  },
+  {
+    "id": 21,
+    "date": "2022.12",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "Ahyeon Shin, Chanyu Moon, and Gunuk Nam (Undergrad Interns) joined the lab. SangEun Seo (Undergrad Intern) returned to the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 22,
+    "date": "2022.08",
+    "title": "Chanwoo Park Program Transition",
+    "text": "Chanwoo Park transitioned into the Integrated MS&Ph.D program.",
+    "category": "Members"
+  },
+  {
+    "id": 23,
+    "date": "2022.06",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "SangEun Seo (Undergrad) and Giwa Osaruiyobo Henrietta (Intern) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 24,
+    "date": "2022.04",
+    "title": "Virtually Attending CHI 2022",
+    "text": "Virtually attending CHI 2022 in April 2022.",
+    "category": "Event"
+  },
+  {
+    "id": 25,
+    "date": "2022.02",
+    "title": "A Warm Welcome to Yeonsun Yang!",
+    "text": "Yeonsun Yang (M.S Student) joined the lab, and Dokyun Lee began his M.S. Student program.",
+    "category": "Members"
+  },
+  {
+    "id": 26,
+    "date": "2022.01",
+    "title": "Attending SIGCHI Korea Local Chapter",
+    "text": "Attending SIGCHI Korea Local Chapter in July 2022.",
+    "category": "Event"
+  },
+  {
+    "id": 27,
+    "date": "2021.12",
+    "title": "A Warm Welcome to Our New Members!",
+    "text": "Hojin Jin, Nayoung Kim, Hyeonho Kwon, and Giwon Lee (Undergrad Interns) joined the lab.",
+    "category": "Members"
+  },
+  {
+    "id": 28,
+    "date": "2021.08",
+    "title": "Lab Founding Members",
+    "text": "Dokyun Lee (Intern) and Chanwoo Park (M.S Student) joined the lab.",
+    "category": "Members"
+  }
+]

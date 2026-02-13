@@ -1,0 +1,62 @@
+{
+  "categories": {
+    "Research Areas": [
+      "Human-AI Interaction",
+      "Crowdsourcing",
+      "Content Moderation",
+      "Education",
+      "Learning Systems",
+      "Social Media",
+      "Mental Health",
+      "Healthcare",
+      "Wellbeing"
+    ],
+    "Methods": [
+      "Machine Learning",
+      "Deep Learning",
+      "Human-in-the-Loop",
+      "User Research",
+      "Qualitative Analysis",
+      "Quantitative Analysis",
+      "Prototyping",
+      "Interaction Design"
+    ],
+    "Domains": [
+      "ESL Learning",
+      "Emotion Recognition",
+      "Automotive Interfaces",
+      "Culture",
+      "Lifestyle",
+      "Workplace",
+      "Online Communities"
+    ]
+  },
+  "all": [
+    "Human-AI Interaction",
+    "Crowdsourcing",
+    "Content Moderation",
+    "Education",
+    "Learning Systems",
+    "Social Media",
+    "Mental Health",
+    "Healthcare",
+    "Wellbeing",
+    "Machine Learning",
+    "Deep Learning",
+    "Human-in-the-Loop",
+    "User Research",
+    "Qualitative Analysis",
+    "Quantitative Analysis",
+    "Prototyping",
+    "Interaction Design",
+    "ESL Learning",
+    "Emotion Recognition",
+    "Automotive Interfaces",
+    "Culture",
+    "Lifestyle",
+    "Workplace",
+    "Online Communities"
+  ]
+}
+
+

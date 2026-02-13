@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Human-AI Interaction",
+    "provider": "@Yonsei UIC",
+    "description": "Examines how humans interact with intelligent systems, with emphasis on explainability, ethics, collaboration, and the design of human-centered AI experiences."
+  },
+  {
+    "title": "Introduction to Social Computing",
+    "provider": "@Yonsei UIC",
+    "description": "Explores how digital technologies mediate social behavior, focusing on social media, online collaboration, and computational analysis of social interaction."
+  },
+  {
+    "title": "Interaction Design",
+    "provider": "@Yonsei UIC",
+    "description": "Teaches the principles and processes of designing interactive systems, focusing on usability, prototyping, and human-centered design thinking."
+  },
+  {
+    "title": "Techno Art Capstone Project",
+    "provider": "@Yonsei UIC",
+    "description": "A project-based course where students integrate technology and art to create innovative, expressive, and interactive final works through iterative design and critique."
+  },
+  {
+    "title": "Introduction to Programming",
+    "description": "(Taught @DGIST in the past) Provides foundational programming skills using Python, covering data types, control structures, functions, file handling, and basic problem-solving."
+  },
+  {
+    "title": "Human-Computer Interaction and User Study",
+    "description": "(Taught @DGIST in the past) Introduces principles of user-centered design and empirical methods for studying user behavior to inform interactive system design."
+  },
+  {
+    "title": "Artificial Intelligence Basics",
+    "description": "(Taught @DGIST in the past) Covers fundamental AI concepts such as search, logic, learning, and perception, with hands-on exercises."
+  }
+]
+
+
+

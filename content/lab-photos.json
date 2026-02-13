@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "image": "/lab-photos/photo1.jpg",
+    "caption": "Lab activity",
+    "date": "2025"
+  },
+  {
+    "id": 2,
+    "image": "/lab-photos/photo2.jpg",
+    "caption": "Lab event",
+    "date": "2025"
+  },
+  {
+    "id": 3,
+    "image": "/lab-photos/photo3.jpg",
+    "caption": "Lab meeting",
+    "date": "2025"
+  }
+]
+
+
