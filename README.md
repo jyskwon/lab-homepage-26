@@ -47,38 +47,35 @@ npm run preview
 
 This is a static React application that can be deployed to any static hosting service:
 
-#### Vercel
+#### Vercel (Recommended)
+
+The repository is configured for Vercel deployment with automatic builds.
+
+**First-time Setup:**
 1. Push your code to GitHub
-2. Import the repository on [Vercel](https://vercel.com)
-3. Vercel will automatically detect Vite and deploy
+2. Go to [Vercel](https://vercel.com) and sign in with your GitHub account
+3. Click "Add New Project"
+4. Import your repository: `diag-dgist/lab-homepage-2026`
+5. Vercel will automatically detect:
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+6. Click "Deploy"
+
+**Automatic Deployment:**
+- Every push to the `master` or `main` branch will automatically trigger a new deployment
+- Vercel provides a preview URL for each deployment
+- Your site will be available at: `https://diag-lab-website.vercel.app/` (or your custom domain)
+
+**Configuration:**
+- The `vercel.json` file is configured for proper SPA routing (all routes redirect to `index.html`)
+- No additional configuration needed - Vercel handles everything automatically
 
 #### Netlify
 1. Push your code to GitHub
 2. Import the repository on [Netlify](https://netlify.com)
 3. Build command: `npm run build`
 4. Publish directory: `dist`
-
-#### GitHub Pages (Automatic Deployment - Recommended)
-
-The repository is configured for automatic deployment to GitHub Pages using GitHub Actions.
-
-**First-time Setup:**
-1. Go to your repository on GitHub: `https://github.com/diag-dgist/lab-homepage-2026`
-2. Navigate to **Settings** → **Pages**
-3. Under **Source**, select **GitHub Actions** (not "Deploy from a branch")
-4. Save the settings
-
-**Automatic Deployment:**
-- Every push to the `master` or `main` branch will automatically trigger a build and deploy
-- The workflow is defined in `.github/workflows/deploy.yml`
-- Your site will be available at: `https://diag-dgist.github.io/lab-homepage-2026/`
-
-**Manual Deployment (Alternative):**
-If you prefer manual deployment:
-1. Install `gh-pages`: `npm install --save-dev gh-pages`
-2. Run: `npm run deploy`
-
-**Note:** The `vite.config.js` is configured with `base: '/lab-homepage-2026/'` to match the repository name. If you change the repository name, update this base path accordingly.
 
 #### Traditional Web Server
 1. Build the project: `npm run build`
