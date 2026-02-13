@@ -84,10 +84,10 @@ Contains team member information and alumni.
 **Fields:**
 - `name`: Member name (required)
 - `title`: Position title (required)
-- `interest`: Research interest description (optional)
+- `interest`: Research interest description (optional, displayed below member name on Members page, supports line breaks with `\n`)
 - `image`: Path to profile image (required)
 - `homepage`: Personal homepage URL (optional, use empty string `""` if none)
-- `keywords`: Array of research keywords as hashtags (optional, e.g., `["HCI", "Crowdsourcing", "Content Moderation"]`)
+- `keywords`: Array of research keywords as hashtags (optional, e.g., `["HCI", "Crowdsourcing", "Content Moderation"]`). Keywords appear as clickable hashtags that navigate to the Publications page with that keyword filter applied
 
 **Image Paths:**
 - Member images should be placed in the `public/members_image/` folder
@@ -107,29 +107,50 @@ Contains team member information and alumni.
   - `yoojin_profile_picture.jpg`
 
 ### `publications.json`
-Contains publications grouped by year.
+Contains publications grouped by year, with separate sections for main publications and posters/demos/workshops.
 
 **Format:**
 ```json
-[
-  {
-    "year": 2024,
-    "items": [
-      {
-        "title": "Publication Title",
-        "authors": "Author, A., & Author, B.",
-        "venue": "Venue Name",
-        "link": "URL to publication",
-        "pdf": "URL to PDF",
-        "bibtex": "URL to BibTeX",
-        "keywords": ["Crowdsourcing", "Content Moderation", "Mental Health"]
-      }
-    ]
-  }
-]
+{
+  "publications": [
+    {
+      "year": 2024,
+      "items": [
+        {
+          "title": "Publication Title",
+          "authors": "Author, A., & Author, B.",
+          "venue": "Venue Name",
+          "link": "URL to publication",
+          "pdf": "URL to PDF",
+          "bibtex": "URL to BibTeX",
+          "keywords": ["Crowdsourcing", "Content Moderation", "Mental Health"],
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "postersDemosWorkshops": [
+    {
+      "year": 2024,
+      "items": [
+        {
+          "title": "Poster Title",
+          "authors": "Author, A.",
+          "venue": "CHI 2024",
+          "type": "Poster",
+          "keywords": ["Education", "Learning Systems"]
+        }
+      ]
+    }
+  ]
+}
 ```
 
-**Fields:**
+**Structure:**
+- `publications`: Array of year groups containing main refereed conference and journal papers
+- `postersDemosWorkshops`: Array of year groups containing posters, demos, and workshop papers
+
+**Fields for publications:**
 - `title`: Publication title (required)
 - `authors`: Author list (required)
 - `venue`: Conference/journal name (required)
@@ -139,6 +160,20 @@ Contains publications grouped by year.
 - `note`: Additional note (optional, e.g., "* Equal contribution")
 - `type`: Publication type (optional, e.g., "Poster", "Workshop")
 - `keywords`: Array of research keywords for filtering (optional, e.g., `["Crowdsourcing", "Content Moderation", "Mental Health"]`)
+- `selected`: Boolean flag (optional, set to `true` to include in the "Selected Publications" section on the homepage)
+
+**Fields for postersDemosWorkshops:**
+- `title`: Publication title (required)
+- `authors`: Author list (required)
+- `venue`: Conference/journal name (required)
+- `type`: Publication type (required, e.g., "Poster", "Demo", "Workshop")
+- `location`: Location of the event (optional, e.g., "New York, NY")
+- `keywords`: Array of research keywords for filtering (optional, e.g., `["Education", "Learning Systems"]`)
+
+**Selected Publications Feature:**
+- Publications with `"selected": true` appear in the "Selected Publications" section on the homepage
+- Only publications from the main `publications` array can be marked as selected
+- The selected publications section displays without year headings and without keyword hashtags
 
 ### `courses.json`
 Contains course information displayed on the Courses page.
@@ -169,7 +204,10 @@ Simply edit the JSON files directly. The changes will be reflected in the websit
 
 1. **News**: Add a new object to the `news.json` array with a unique `id`
 2. **Members**: Add to the appropriate `team` role array or `alumni` array
-3. **Publications**: Add to the appropriate year's `items` array, or create a new year object
+3. **Publications**: 
+   - For main publications: Add to the appropriate year's `items` array in `publications`, or create a new year object
+   - For posters/demos/workshops: Add to the appropriate year's `items` array in `postersDemosWorkshops`, or create a new year object
+   - To feature a publication on the homepage: Add `"selected": true` to the publication object
 4. **Courses**: Add a new object to the `courses.json` array with `title`, `description`, and optional `provider`
 
 ## Keywords System

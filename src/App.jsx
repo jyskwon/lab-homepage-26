@@ -299,8 +299,8 @@ const HomePage = ({ onNavigate }) => (
 
         <div className="max-w-4xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
           <div className="space-y-6 flex-1 min-w-0">
-            <h3 className="text-2xl font-bold text-[#00205B] flex items-center gap-3 whitespace-nowrap">
-              <FlaskConical className="w-6 h-6 text-[#407EC9]" /> Rapid Prototyping as Research
+            <h3 className="text-2xl font-bold text-[#00205B] flex items-center gap-3 whitespace-normal lg:whitespace-nowrap">
+              <FlaskConical className="w-6 h-6 text-[#407EC9] shrink-0" /> Rapid Prototyping as Research
             </h3>
             <p className="text-[#333F48] leading-relaxed">
               We develop high-fidelity functional prototypes that act as "probes" into the future. By putting these tools in people's hands, we observe how AI-infused systems can best support human needs, productivity, and creativity. This iterative cycle of building and evaluating allows us to stay at the cutting edge of HCI research.
@@ -1389,17 +1389,19 @@ const App = () => {
               </button>
             ))}
           </div>
-          <button className={`md:hidden ${scrolled || currentPage !== 'home' ? 'text-[#333F48]' : 'text-[#333F48]'}`} onClick={() => setIsMenuOpen(!isMenuOpen)}>{isMenuOpen ? <X /> : <Menu />}</button>
+          <button className={`md:hidden relative z-[60] ${scrolled || currentPage !== 'home' ? 'text-[#333F48]' : 'text-[#333F48]'}`} onClick={() => setIsMenuOpen(!isMenuOpen)}>{isMenuOpen ? <X /> : <Menu />}</button>
         </div>
-        {isMenuOpen && (
-          <div className="md:hidden bg-white fixed inset-0 z-50 p-6 flex flex-col gap-8 pt-24 animate-in fade-in duration-300">
-            <button className="absolute top-6 right-6 text-[#333F48]" onClick={() => setIsMenuOpen(false)}><X className="w-8 h-8" /></button>
+      </nav>
+      {isMenuOpen && (
+        <div className="md:hidden fixed top-0 left-0 right-0 bottom-0 z-[100] bg-white" style={{ position: 'fixed' }}>
+          <div className="p-6 flex flex-col gap-8 pt-24 h-full w-full overflow-y-auto">
+            <button className="absolute top-6 right-6 text-[#333F48] z-10 bg-white p-2 rounded-full hover:bg-gray-100" onClick={() => setIsMenuOpen(false)}><X className="w-8 h-8" /></button>
             {navItems.map((item) => (
               <button key={item.id} onClick={() => navigate(item.id)} className={`text-left text-3xl font-extrabold ${currentPage === item.id ? 'text-[#407EC9]' : 'text-[#00205B]'}`}>{item.name}</button>
             ))}
           </div>
-        )}
-      </nav>
+        </div>
+      )}
 
       <main className="min-h-[80vh] relative z-10">{renderContent()}</main>
 

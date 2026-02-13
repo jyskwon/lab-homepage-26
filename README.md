@@ -58,13 +58,27 @@ This is a static React application that can be deployed to any static hosting se
 3. Build command: `npm run build`
 4. Publish directory: `dist`
 
-#### GitHub Pages
+#### GitHub Pages (Automatic Deployment - Recommended)
+
+The repository is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+**First-time Setup:**
+1. Go to your repository on GitHub: `https://github.com/diag-dgist/lab-homepage-2026`
+2. Navigate to **Settings** → **Pages**
+3. Under **Source**, select **GitHub Actions** (not "Deploy from a branch")
+4. Save the settings
+
+**Automatic Deployment:**
+- Every push to the `master` or `main` branch will automatically trigger a build and deploy
+- The workflow is defined in `.github/workflows/deploy.yml`
+- Your site will be available at: `https://diag-dgist.github.io/lab-homepage-2026/`
+
+**Manual Deployment (Alternative):**
+If you prefer manual deployment:
 1. Install `gh-pages`: `npm install --save-dev gh-pages`
-2. Add to `package.json` scripts:
-   ```json
-   "deploy": "npm run build && gh-pages -d dist"
-   ```
-3. Run: `npm run deploy`
+2. Run: `npm run deploy`
+
+**Note:** The `vite.config.js` is configured with `base: '/lab-homepage-2026/'` to match the repository name. If you change the repository name, update this base path accordingly.
 
 #### Traditional Web Server
 1. Build the project: `npm run build`
@@ -108,9 +122,19 @@ server {
 ```
 diag-lab-website/
 ├── src/
-│   ├── App.jsx          # Main application component
+│   ├── App.jsx          # Main application component (routing, pages, components)
 │   ├── main.jsx         # Application entry point
 │   └── index.css        # Global styles and Tailwind imports
+├── content/             # JSON data files for website content
+│   ├── news.json        # News items
+│   ├── members.json     # Team members and alumni
+│   ├── publications.json # Publications and posters/demos/workshops
+│   ├── courses.json     # Course information
+│   ├── keywords.json    # Centralized keywords list
+│   └── lab-photos.json  # Lab photo gallery
+├── public/              # Static assets
+│   ├── members_image/   # Member profile pictures
+│   └── publications_pdf/ # Publication PDF files
 ├── index.html           # HTML template
 ├── package.json         # Dependencies and scripts
 ├── vite.config.js       # Vite configuration
@@ -127,9 +151,73 @@ diag-lab-website/
 
 ## Customization
 
-- Update lab information in `src/App.jsx` (labInfo, newsData, researchAreas, etc.)
+### Content Management
+- **All content is managed through JSON files** in the `content/` directory
+- See `content/README.md` for detailed documentation on editing content
+- Update lab information in `src/App.jsx` (labInfo, researchAreas)
+- News, members, publications, courses, and keywords are all managed via JSON files
+
+### Styling
 - Modify colors in Tailwind classes or extend the theme in `tailwind.config.js`
+- Global styles are in `src/index.css`
+
+### Pages and Navigation
 - Add/remove pages by updating the navigation and renderContent function in `App.jsx`
+- Pages include: Home, News, Members, Research, Publications, Courses, Lab Photos, Contact, Schedule
+
+### Key Features
+- **Single-page application** with hash-based routing (browser back/forward support)
+- **Keyword filtering** on Publications page with checkbox interface
+- **Selected Publications** section on homepage (publications with `"selected": true`)
+- **Clickable keyword hashtags** that navigate to filtered Publications page
+- **Responsive design** with mobile-friendly navigation
+- **News sidebar** with year navigation
+- **Posters, Demos, and Workshop Papers** separate section on Publications page
+
+## SEO and Search Engine Optimization
+
+The website is configured for optimal search engine visibility:
+
+### SEO Features
+- **Meta Tags**: Comprehensive meta tags including title, description, keywords, Open Graph, and Twitter Card tags
+- **Structured Data**: JSON-LD schema markup for better search engine understanding
+- **Sitemap**: XML sitemap at `/sitemap.xml` listing all major pages
+- **Robots.txt**: Configured to allow search engine crawling
+- **Canonical URLs**: Prevents duplicate content issues
+
+### Submitting to Google Search Console
+
+After deploying your website, follow these steps to ensure it appears in Google search:
+
+1. **Verify Your Site**:
+   - Go to [Google Search Console](https://search.google.com/search-console)
+   - Add your property (website URL)
+   - Verify ownership using one of the provided methods (HTML file upload, meta tag, DNS, etc.)
+
+2. **Submit Your Sitemap**:
+   - In Google Search Console, go to "Sitemaps" in the left sidebar
+   - Enter your sitemap URL: `https://your-domain.com/sitemap.xml`
+   - Click "Submit"
+
+3. **Request Indexing** (Optional):
+   - Use the "URL Inspection" tool to check if specific pages are indexed
+   - Click "Request Indexing" for important pages if they're not yet indexed
+
+4. **Monitor Performance**:
+   - Check the "Coverage" report to see which pages are indexed
+   - Monitor "Performance" to see search queries and impressions
+   - Fix any issues reported in the "Enhancements" section
+
+### Other Search Engines
+
+- **Bing Webmaster Tools**: Submit your sitemap at [Bing Webmaster Tools](https://www.bing.com/webmasters)
+- **Yandex Webmaster**: Submit at [Yandex Webmaster](https://webmaster.yandex.com) if targeting Russian/Korean markets
+
+### Important Notes
+- It may take a few days to weeks for Google to crawl and index your site
+- Keep your content updated regularly to maintain good search rankings
+- The sitemap will be automatically accessible at `https://your-domain.com/sitemap.xml` after deployment
+- Update the `lastmod` dates in `public/sitemap.xml` when you make significant content changes
 
 ## License
 
