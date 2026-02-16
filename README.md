@@ -47,30 +47,6 @@ npm run preview
 
 This is a static React application that can be deployed to any static hosting service:
 
-#### Vercel (Recommended)
-
-The repository is configured for Vercel deployment with automatic builds.
-
-**First-time Setup:**
-1. Push your code to GitHub
-2. Go to [Vercel](https://vercel.com) and sign in with your GitHub account
-3. Click "Add New Project"
-4. Import your repository: `diag-dgist/lab-homepage-2026`
-5. Vercel will automatically detect:
-   - **Framework Preset**: Vite
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-6. Click "Deploy"
-
-**Automatic Deployment:**
-- Every push to the `master` or `main` branch will automatically trigger a new deployment
-- Vercel provides a preview URL for each deployment
-- Your site will be available at: `https://diag-lab-website.vercel.app/` (or your custom domain)
-
-**Configuration:**
-- The `vercel.json` file is configured for proper SPA routing (all routes redirect to `index.html`)
-- No additional configuration needed - Vercel handles everything automatically
-
 #### Netlify
 1. Push your code to GitHub
 2. Import the repository on [Netlify](https://netlify.com)

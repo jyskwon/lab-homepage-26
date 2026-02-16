@@ -590,12 +590,11 @@ const PublicationsPage = ({ keywordFilter, navigate }) => {
     keywordFilter ? [keywordFilter] : []
   );
   
-  // Update selected keywords when URL param changes
+  // Sync from URL to state when user lands with a keyword (e.g. link from elsewhere).
+  // When URL has no keyword, do not clear state—allows multiple checkboxes to stay selected.
   useEffect(() => {
     if (keywordFilter) {
       setSelectedKeywords([keywordFilter]);
-    } else {
-      setSelectedKeywords([]);
     }
   }, [keywordFilter]);
   
